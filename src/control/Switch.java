@@ -22,11 +22,11 @@ public class Switch {
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00004":
-				aux = "RS485_REGION" + ";";
+				aux = "RS485" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00005":
-				aux = "RS232_REGION" + ";";
+				aux = "RS232" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00006":
@@ -38,15 +38,15 @@ public class Switch {
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00011":
-				aux = "READ_CHANNEL" + ";";
+				aux = "READ_DATA" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00012":
-				aux = "READ_BATTERY" + ";";
+				aux = "READ_FRAME" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00013":
-				aux = "FRAME_MODBUS" + ";";
+				aux = "RESET_MODBUS" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00014":
@@ -62,7 +62,7 @@ public class Switch {
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00017":
-				aux = "MODBUS_MESTRE_TIMEOUT" + ";";
+				aux = "MODBUS_TIMEOUT" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00018":
@@ -70,19 +70,19 @@ public class Switch {
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00019":
-				aux = "LAST_FUNCTION_RUNNIG" + ";";
+				aux = "RUNNING" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00020":
-				aux = "ERROR_RTC" + ";";
+				aux = "ERROR_CLOCK" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00041":
-				aux = "RTC_UPDATED" + ";";
+				aux = "CLOCK_UPDATED" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00042":
-				aux = "GSM_CONNECTED" + ";";
+				aux = "CONNECTED_LINE" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00043":
@@ -94,7 +94,7 @@ public class Switch {
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00045":
-				aux = "HTTP_DATA_SENT_TO_SERVER" + ";";
+				aux = "HTTP_SENDED" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00046":
@@ -110,100 +110,74 @@ public class Switch {
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00061":
-				aux = "ERR_SIMCARD" + ";";
+				aux = "ERROR_SIM_1" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00062":
-				aux = "ERR_OPERATOR_NOT_FOUND" + ";";
+				aux = "ERROR_SIM_2" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00063":
-				aux = "ERR_NOT_REGISTERED" + ";";
+				aux = "ERROR_SIM_3" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00064":
-				aux = "ERR_FTP_CONNECTION" + ";";
+				aux = "ERROR_SIM_4" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00065":
-				aux = "ERR_LOADING_FILE_FTP" + ";";
+				aux = "ERROR_SIM_5" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00066":
-				aux = "ERR_RTC_NOT_SYNCHRONIZED" + ";";
+				aux = "ERROR_SIM_6" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00067":
-				aux = "ERR_MODEM_RESET" + ";";
+				aux = "ERROR_SIM_7" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00068":
-				aux = "ERR_CMD_FILE" + ";";
+				aux = "ERROR_SIM_8" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00069":
-				aux = "ERR_NO_SIGNAL" + ";";
+				aux = "ERROR_SIM_9" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00070":
-				aux = "DATA_SERVICE_REFUSED" + ";";
+				aux = "DATA_REFUSED" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00071":
-				aux = "ERR_DEL_CFG_FILE" + ";";
+				aux = "ERROR_SIM_10" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00072":
-				aux = "DEL_CFG_FILE_OK" + ";";
+				aux = "DEL_FILE" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00073":
-				aux = "ERR_SENDING_DATA_HTTP" + ";";
+				aux = "ERROR_SIM_11" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00074":
-				aux = "ERR_RECEIVING_TICKET_HTTP" + ";";
+				aux = "ERROR_SIM_12" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00075":
-				aux = "ERR_POST_HTTP" + ";";
+				aux = "ERROR_FTP" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			case "00101":
-				aux = "ERR_EVENT_TABLE_WRITE" + ";";
-				this.linhafinal = this.linhafinal + aux;
-				break;
-			case "00102":
-				aux = "ERR_INVALID_MODEM_CODE" + ";";
-				this.linhafinal = this.linhafinal + aux;
-				break;
-			case "00103":
-				aux = "ERR_FLASH_WRITING" + ";";
-				this.linhafinal = this.linhafinal + aux;
-				break;
-			case "00104":
-				aux = "ERR_MEMORY_ALLOCATION" + ";";
-				this.linhafinal = this.linhafinal + aux;
-				break;
-			case "00105":
-				aux = "ERR_TASK_CREATION" + ";";
+				aux = "ERROR_SIM_13" + ";";
 				this.linhafinal = this.linhafinal + aux;
 				break;
 			default:
 				this.linhafinal = this.linhafinal + aux + ";";
 				break;
 		}
-		/*if (aux2.equals("00000"))
-		{
-			aux2 = "Teste" + ";";
-			//System.out.print(aux2);
-			linhafinal = linhafinal+aux2;
-		}
-		else 
-		{
-			//System.out.print(aux2+";");
-			linhafinal = linhafinal + aux2 + ";";
-		}*/
+
 		return this.linhafinal;
 	}
 	
